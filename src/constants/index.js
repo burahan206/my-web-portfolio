@@ -1,7 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.jpeg";
+import project2 from "../assets/projects/project-2.png"
+import project3 from "../assets/projects/project-3.png"
 
 export const HERO_CONTENT = `As a recent graduate of the Generation Bootcamp, I am a junior software developer equipped
 with strong technical skills in web development. I am looking for new challenges where I can
@@ -17,31 +16,28 @@ export const PROJECTS = [
   {
     title: "E-Commerce Website",
     image: project1,
+    link: "https://tea-blend.vercel.app/",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "MongoDB"],
   },
   {
-    title: "xxxxx",
-    image: project4,
+    title: "Weather-app",
+    link: "https://weather-app-phi-liart-72.vercel.app/",    
+    image: project2,
     description:
-      "xxxxxxxxxxxxxx",
-    technologies: ["xxx", "xxx", "xxxx", "xxxxx", "xx"],
+      "A weather application developed using HTML, CSS, and React that provides real-time weather information, including temperature, humidity, wind speed, ",
+    technologies: ["HTML", "CSS", "React", ],
   },
   {
-    title: "xxxxx",
-    image: project4,
+    title: "Portfolio-web",
+    link: "https://my-web-portfolio-xi.vercel.app/",    
+    image: project3,
     description:
-      "xxxxxxxxxxxxxx",
-    technologies: ["xxx", "xxx", "xxxx", "xxxxx", "xx"],
+      "A sleek, responsive portfolio web application showcasing various projects and skills. This portfolio highlights web development expertise, with a focus on clean design and easy navigation. It serves as an interactive resume, allowing visitors to explore the projects, technologies used, and contact details.",
+    technologies: ["HTML", "Tailwind", "React", ],
   },
-  {
-    title: "xxxxx",
-    image: project4,
-    description:
-      "xxxxxxxxxxxxxx",
-    technologies: ["xxx", "xxx", "xxxx", "xxxxx", "xx"],
-  },
+ 
 ];
 
 export const CONTACT = {
