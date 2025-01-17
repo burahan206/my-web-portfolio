@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpeg";
 import project2 from "../assets/projects/project-2.png"
 import project3 from "../assets/projects/project-3.png"
+import project4 from "../assets/projects/project-4.png"
 
 export const HERO_CONTENT = `As a recent graduate of the Generation Bootcamp, I am a junior software developer equipped
 with strong technical skills in web development. I am looking for new challenges where I can
@@ -35,6 +36,14 @@ export const PROJECTS = [
     image: project3,
     description:
       "A sleek, responsive portfolio web application showcasing various projects and skills. This portfolio highlights web development expertise, with a focus on clean design and easy navigation. It serves as an interactive resume, allowing visitors to explore the projects, technologies used, and contact details.",
+    technologies: ["HTML", "Tailwind", "React", ],
+  },
+  {
+    title: "E-Commerce Website",
+    link: "https://e-commerce-app-steel-omega.vercel.app/",    
+    image: project4,
+    description:
+      "I developed a fully functional e-commerce application using the MERN stack, which consists of MongoDB, Express.js, React.js, and Node.js. The project aimed to provide a seamless online shopping experience for users while showcasing modern web development practices.",
     technologies: ["HTML", "Tailwind", "React", ],
   },
  
