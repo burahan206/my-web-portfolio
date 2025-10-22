@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpeg";
 import project2 from "../assets/projects/project-2.png"
 import project3 from "../assets/projects/project-3.png"
 import project4 from "../assets/projects/project-4.png"
+import project5 from "../assets/projects/project-5.png"
 
 export const HERO_CONTENT = `As a recent graduate of the Generation Bootcamp, I am a junior software developer equipped
 with strong technical skills in web development. I am looking for new challenges where I can
@@ -46,6 +47,16 @@ export const PROJECTS = [
       "I developed a fully functional e-commerce application using the MERN stack, which consists of MongoDB, Express.js, React.js, and Node.js. The project aimed to provide a seamless online shopping experience for users while showcasing modern web development practices.",
     technologies: ["HTML", "Tailwind", "React", ],
   },
+  ,
+  {
+    title: "automate-test-for-ecommerce",
+    link: "https://github.com/burahan206/automate-test-for-ecommerce",    
+    image: project5,
+    description:
+      "End-to-end Playwright tests for a sample e‑commerce application. Includes smoke and feature tests to validate product browsing, cart behavior, checkout flows, and basic UI regressions.",
+    technologies: ["JavaScript", "Playwright", "Testing"],
+  },
+  
  
 ];
 
